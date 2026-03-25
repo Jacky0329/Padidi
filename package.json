@@ -1,0 +1,17 @@
+{
+  "name": "padidi-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:bo": "npm run --workspace=apps/bo-portal dev",
+    "dev:user": "npm run --workspace=apps/user-portal dev",
+    "build:bo": "npm run --workspace=apps/bo-portal build",
+    "build:user": "npm run --workspace=apps/user-portal build",
+    "lint:bo": "npm run --workspace=apps/bo-portal lint",
+    "lint:user": "npm run --workspace=apps/user-portal lint"
+  }
+}
