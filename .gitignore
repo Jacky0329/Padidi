@@ -43,3 +43,4 @@ specs/
 .github/agents/
 .github/prompts/
 .vscode/
+.gitignore
